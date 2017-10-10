@@ -24,7 +24,7 @@ namespace AA.Forms.Logging
             if (target is RichTextBox)
                 _targetRichTextBox = target as RichTextBox;
             else
-                throw new Exception("Control is not RichTextBox controller");
+                throw new Exception("Control is not RichTextBox controller!");
         }
 
 
